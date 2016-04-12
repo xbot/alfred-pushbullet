@@ -5,6 +5,7 @@ try:
     import alfred
     from pushbullet import Pushbullet
     from pushbullet.errors import InvalidKeyError
+    from requests.exceptions import ConnectionError
 except ImportError as e:
     print e
     sys.exit()
@@ -22,6 +23,9 @@ try:
     api = Pushbullet(apiKey)
 except InvalidKeyError:
     print 'API key is invalid.'
+    sys.exit()
+except ConnectionError:
+    print 'Failed connecting to pushbullet.'
     sys.exit()
 
 try:
