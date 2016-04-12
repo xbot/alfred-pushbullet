@@ -32,9 +32,11 @@ try:
     device = api.get_device(deviceName)
 except InvalidKeyError:
     print 'Device %s not found.' % deviceName
+    sys.exit()
 
 try:
     device.push_note('', text)
     print 'Text pushed to %s.' % deviceName
 except Exception as e:
     print e
+    sys.exit()
