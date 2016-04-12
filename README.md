@@ -18,8 +18,8 @@ Pushbullet workflow for Alfred.
   1. Download the latest release and rename it to pushbullet.alfredworkflow.
   -  Double click it to import it into Alfred.
   -  Double click the "Run Script" button and replace "ACCESS_TOKEN" and "DEVICE_NAME" according to your pushbullet settings.
-  -  Type "push blablabla" and press enter.
+  -  Activate alfred and input "push blablabla", then press enter.
 
 ## Author
 
-Donie Leigh `base64decode ZG9uaWUubGVpZ2hAZ21haWwuY29tCg==`
+`base64decode IkRvbmllIExlaWdoIiA8ZG9uaWUubGVpZ2hAZ21haWwuY29tPgo=`
