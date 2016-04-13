@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
 try:
-    import sys
     import alfred
-    from pushbullet import Pushbullet
-    from pushbullet.errors import InvalidKeyError
-    from requests.exceptions import ConnectionError
+    import sys
+    sys.path.append('lib')
+    from lib.pushbullet import Pushbullet
+    from lib.pushbullet.errors import InvalidKeyError
+    from lib.requests.exceptions import ConnectionError
 except ImportError as e:
     print e
     sys.exit()

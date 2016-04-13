@@ -6,13 +6,6 @@ Pushbullet workflow for Alfred.
 
   - Push a text to another device.
 
-## Requirements
-
-  - Python 2.x
-  - python2-pushbullet.py
-  - python2-requests
-  - python2-websocket-client
-
 ## Installation
 
   1. Download the latest release and rename it to pushbullet.alfredworkflow.
